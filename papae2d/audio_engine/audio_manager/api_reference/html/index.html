@@ -125,11 +125,11 @@ Note that you have to import the namespace <em>Papae2D.AudioEngine</em> to use t
 <h4> Play a sound clip for a duration of 10 secs </h4>
 > 	AudioManager.PlaySFX(sound_clip, 10f);
 
-<h4> Play a sound clip and track it's progress from the repeat loop </h4>
-> 	AudioManager.PlaySFX(sound_clip, 120f, world_location, true);
-
 <h4> Loop or repeat a sound clip at a particular location 5 times </h4>
 >	AudioManager.RepeatSFX(sound_clip, 5, world_location);
+
+<h4> Play a sound clip and track it's progress from the repeat loop </h4>
+> 	AudioManager.PlaySFX(sound_clip, 120f, world_location, true);
 
 <h4> Play a sound clip from the stored asset list once </h4>
 >	AudioManager.PlayOneShot(AudioManager.GetClipFromAssetList(clip_name));
