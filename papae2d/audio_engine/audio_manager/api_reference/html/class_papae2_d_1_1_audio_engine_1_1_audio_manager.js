@@ -47,6 +47,7 @@ var class_papae2_d_1_1_audio_engine_1_1_audio_manager =
     [ "Options", "class_papae2_d_1_1_audio_engine_1_1_audio_manager.html#afcf8a5bc91cb08fe5a4a785b573ded4e", null ],
     [ "BGM", "class_papae2_d_1_1_audio_engine_1_1_audio_manager.html#a9bad1f8b6ad398eeb0e0e5cc35d31c1d", null ],
     [ "Instance", "class_papae2_d_1_1_audio_engine_1_1_audio_manager.html#a3775af432d1d41fc6c3d2aff937e10d3", null ],
+    [ "NoMusicIsBeingPlayed", "class_papae2_d_1_1_audio_engine_1_1_audio_manager.html#a9e432bbb89a79e4a7b1cc7b1c3e438cc", null ],
     [ "RepeatSoundPool", "class_papae2_d_1_1_audio_engine_1_1_audio_manager.html#a8da0609ddc6f14b7d5db0926bc124024", null ],
     [ "SoundAssetPool", "class_papae2_d_1_1_audio_engine_1_1_audio_manager.html#aec689218bcde36992a01d2d9f24680b0", null ]
 ];

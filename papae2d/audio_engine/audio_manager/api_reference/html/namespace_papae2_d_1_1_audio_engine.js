@@ -5,5 +5,5 @@ var namespace_papae2_d_1_1_audio_engine =
     [ "BackgroundMusic", "struct_papae2_d_1_1_audio_engine_1_1_background_music.html", "struct_papae2_d_1_1_audio_engine_1_1_background_music" ],
     [ "RepeatSound", "struct_papae2_d_1_1_audio_engine_1_1_repeat_sound.html", "struct_papae2_d_1_1_audio_engine_1_1_repeat_sound" ],
     [ "SoundAsset", "struct_papae2_d_1_1_audio_engine_1_1_sound_asset.html", "struct_papae2_d_1_1_audio_engine_1_1_sound_asset" ],
-    [ "SoundEFfectTag", "class_papae2_d_1_1_audio_engine_1_1_sound_e_ffect_tag.html", null ]
+    [ "SoundEffectTag", "class_papae2_d_1_1_audio_engine_1_1_sound_effect_tag.html", null ]
 ];

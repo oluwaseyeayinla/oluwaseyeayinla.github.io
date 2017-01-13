@@ -29,9 +29,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">AudioManager
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.0.1</span>
    </div>
-   <div id="projectbrief">Simple way to manage and control your 2D game’s background music  and sound effects</div>
+   <div id="projectbrief">Simple way to manage and control your 2D game’s background music and sound effects</div>
   </td>
  </tr>
  </tbody>
@@ -85,7 +85,10 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div class="title">AudioManager Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3> Features</h3>
+<img src="../../audio_manager/promotional_images/860-x-389.jpg" alt="AudioManager (Papae2D.AudioEngine)" style="width:860;height:389;">
+
+
+<h3> Features </h3>
 - An audio manager component in inspector view 
 <br>
 -	Persistent singleton class call from code (no prefabs needed)
@@ -133,13 +136,23 @@ Note that you have to import the namespace <em>Papae2D.AudioEngine</em> to use t
 
 <h4> Play a sound clip from the stored asset list once </h4>
 >	AudioManager.PlayOneShot(AudioManager.GetClipFromAssetList(clip_name));
+<br>
+<br>
 
+<h3> Release Notes </h3>
+<h4>Version 1.0.1</h4>
+<b>Bug Fixes</b><br>
+- Fixed the hanging issue when trying to perform another transition effect on one that is currently performing
+- Fixed the camel case mispelt error from SoundEFectTag to be SoundEfectTag
+<br>
+<b>Features</b><br>
+- Added a no music is being played property to the AudioManager class; meaning you can check if a current background music is being played
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jan 2 2017 15:28:23 for AudioManager by
+    <li class="footer">Generated on Fri Jan 13 2017 01:17:34 for AudioManager by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.12 </li>
   </ul>

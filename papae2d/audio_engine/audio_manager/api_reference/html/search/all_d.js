@@ -7,7 +7,7 @@ var searchData=
   ['setsfxvolume',['SetSFXVolume',['../class_papae2_d_1_1_audio_engine_1_1_audio_manager.html#a6c0a57159330cf9a35e4ef8feaa98176',1,'Papae2D::AudioEngine::AudioManager']]],
   ['soundasset',['SoundAsset',['../struct_papae2_d_1_1_audio_engine_1_1_sound_asset.html',1,'Papae2D::AudioEngine']]],
   ['soundassetpool',['SoundAssetPool',['../class_papae2_d_1_1_audio_engine_1_1_audio_manager.html#aec689218bcde36992a01d2d9f24680b0',1,'Papae2D::AudioEngine::AudioManager']]],
-  ['soundeffecttag',['SoundEFfectTag',['../class_papae2_d_1_1_audio_engine_1_1_sound_e_ffect_tag.html',1,'Papae2D::AudioEngine']]],
+  ['soundeffecttag',['SoundEffectTag',['../class_papae2_d_1_1_audio_engine_1_1_sound_effect_tag.html',1,'Papae2D::AudioEngine']]],
   ['soundfxmixergroup',['soundFxMixerGroup',['../class_papae2_d_1_1_audio_engine_1_1_audio_options.html#a4ee83526daa3b8f2ca2ff8736680b7dc',1,'Papae2D::AudioEngine::AudioOptions']]],
   ['soundfxon',['soundFxOn',['../class_papae2_d_1_1_audio_engine_1_1_audio_options.html#a93961b1000dd648e6b2dea8058b8e401',1,'Papae2D::AudioEngine::AudioOptions']]],
   ['soundfxvolume',['soundFxVolume',['../class_papae2_d_1_1_audio_engine_1_1_audio_options.html#a86bc7e3fa0c273bfa43597424c21ee94',1,'Papae2D::AudioEngine::AudioOptions']]],

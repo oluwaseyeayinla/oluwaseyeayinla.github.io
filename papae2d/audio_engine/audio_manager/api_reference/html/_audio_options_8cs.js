@@ -4,7 +4,7 @@ var _audio_options_8cs =
     [ "RepeatSound", "struct_papae2_d_1_1_audio_engine_1_1_repeat_sound.html", "struct_papae2_d_1_1_audio_engine_1_1_repeat_sound" ],
     [ "SoundAsset", "struct_papae2_d_1_1_audio_engine_1_1_sound_asset.html", "struct_papae2_d_1_1_audio_engine_1_1_sound_asset" ],
     [ "AudioOptions", "class_papae2_d_1_1_audio_engine_1_1_audio_options.html", "class_papae2_d_1_1_audio_engine_1_1_audio_options" ],
-    [ "SoundEFfectTag", "class_papae2_d_1_1_audio_engine_1_1_sound_e_ffect_tag.html", null ],
+    [ "SoundEffectTag", "class_papae2_d_1_1_audio_engine_1_1_sound_effect_tag.html", null ],
     [ "MusicTransition", "_audio_options_8cs.html#accbf09948bee9e76b185fc83e6e0ad78", [
       [ "Swift", "_audio_options_8cs.html#accbf09948bee9e76b185fc83e6e0ad78aae832e9b5bda2699db45f3fa6aa8c556", null ],
       [ "LinearFade", "_audio_options_8cs.html#accbf09948bee9e76b185fc83e6e0ad78ac52ce8a2fe289e872bb483a318177dca", null ],
