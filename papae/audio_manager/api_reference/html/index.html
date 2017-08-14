@@ -85,6 +85,71 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div class="title">AudioManager Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<img src="http://github.com/oluwaseyeayinla/oluwaseyeayinla.github.io/blob/master/papae/audio_manager/promotional_images/860-x-389.jpg" alt="AudioManager Banner image" height="860" width="389">
+
+<h3> Features</h3>
+- An audio manager component in inspector view 
+<br>
+-	Persistent singleton component with one line calls from code
+<br>
+-	3 background music transition effects (Swift, Linear Fade & Cross Fade)
+<br>
+-	Control of all sound effects in game without tags
+<br>
+-	Integration with AudioMixerGroups
+<br>
+-	Built-in sound pool for looping or repeating sound effects
+<br>
+-	Playlist for loading audio assets from resource folder or url
+
+<h3> Installation </h3>
+Import the <em>Papae-AudioManager.unitypackage</em> or just copy the <em>AudioManager.cs</em> script anywhere inside Assets folder and you are ready to go
+
+<h3> Usage </h3>
+1.  Drag and drop the <em>AudioManager.prefab</em> gameobject anywhere in the scene or hierarchy, edit any properties visible in the Inspector then call any API related function or attribute from code
+<br>
+2.  Or attach or add the <em>AudioManager</em> component to an empty game object in the scene, and call any API related function or attribute from code
+<br>
+3.  Or just fire or call any API related function or attribute from code
+<br>
+<br>
+Note that you have to import the namespace <em>Papae.UnitySDK.Managers</em> to use the AudioManager in script
+
+<h3> Examples </h3>
+
+<h4> Fade out the current music and fade in the next music within 4 seconds</h4>
+
+> AudioManager.Instance.PlayBGM(sound_clip, MusicTransition.LinearFade, 4f);
+
+<h4> Play a sound clip for the duration of 10 seconds</h4>
+
+> AudioManager.Instance.PlaySFX(sound_clip, 10f);
+
+<h4> Loop or repeat a sound at a particular world location 5 times</h4>
+
+> AudioManager.Instance.RepeatSFX(clip, world_location, 5);
+
+<h4> Load an audio clip from the resources folder and save to the playlist</h4>
+
+> AudioManager.Instance.LoadClip(resources_path, true);
+
+<h4> Play a sound clip from the playlist once</h4>
+
+> AudioManager.Instance.PlayOneShot(AudioManager.Instance.GetClipFromPlaylist(“clip_name”));
+
+<h4> Play a single instance of a sound clip forever until external stop</h4>
+
+> AudioManager.Instance.RepeatSFX(clip, -1, true);
+
+Note: You can also use the PlaySFX to loop a sound forever. Just pass the float.PositiveInfinity as the duration parameter.
+
+
+<h4> Load a wave audio file from a specified url path but don’t add to playlist</h4>
+
+> AudioManager.Instance.LoadClip(url_string, AudioType.WAV, false, callback);
+
+
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
